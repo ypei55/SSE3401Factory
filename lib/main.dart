@@ -50,7 +50,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
               Container(
                   height: MediaQuery.of(context).size.height * 0.51,
-                  // width: MediaQuery.of(context).size.width*0.90,
                   decoration: BoxDecoration(
                       color: index == 0
                           ?const Color.fromRGBO(254, 216, 217, 1)

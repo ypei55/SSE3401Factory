@@ -2,13 +2,6 @@ import 'package:country_flags/country_flags.dart';
 import 'package:flutter/material.dart';
 import 'package:lab5_factory/dashboard.dart';
 
-// void main() {
-//   runApp(MaterialApp(
-//     debugShowCheckedModeBanner: false,
-//     home: Invitation(),
-//   ));
-// }
-
 class Invitation extends StatefulWidget {
   final int currentFactoryIndex;
   const Invitation({super.key, this.currentFactoryIndex = 0});
@@ -66,7 +59,7 @@ class _InvitationState extends State<Invitation> {
                     fontSize: 20,
                   ),
                 ),
-                const SizedBox(height: 20,),//latest
+                const SizedBox(height: 20,),
                 const Row(
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [

@@ -3,13 +3,6 @@ import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
 import 'package:lab5_factory/invitation.dart';
 
-// void main() {
-//   runApp(const MaterialApp(
-//     debugShowCheckedModeBanner: false,
-//     home: Dashboard(),
-//   ));
-// }
-
 class Dashboard extends StatefulWidget {
   const Dashboard({super.key});
 
@@ -68,7 +61,7 @@ class _DashboardState extends State<Dashboard> {
                 child: Padding(
                   padding: const EdgeInsets.fromLTRB(3, 10, 3, 3),
                   child: currentIndex == 0
-                      ? //let every page got button plus
+                      ? 
                       currentFactoryIndex == 1
                           ? Column(
                               children: [
