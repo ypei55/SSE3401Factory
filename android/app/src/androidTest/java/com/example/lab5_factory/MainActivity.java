@@ -1,5 +1,6 @@
 package com.example.lab5_factory;
 
+import androidx.test.rule.ActivityTestRule;
 import androidx.test.rule.ActivityRule;
 import dev.flutter.plugins.integration_test.FlutterRunner;
 import org.junit.Rule;
