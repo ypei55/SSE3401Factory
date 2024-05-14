@@ -427,8 +427,6 @@ class _FactoryInformationState extends State<FactoryInformation> {
   @override
   Widget build(BuildContext context) {
     return Column(
-        // mainAxisAlignment: MainAxisAlignment.start,
-        // crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Text(
             widget.title,

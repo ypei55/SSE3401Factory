@@ -12,7 +12,7 @@ class Invitation extends StatefulWidget {
 
 class _InvitationState extends State<Invitation> {
   TextEditingController telNum = TextEditingController();
-  TextEditingController Name = TextEditingController();
+  TextEditingController name = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -74,20 +74,17 @@ class _InvitationState extends State<Invitation> {
                 ),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(5, 5, 5, 35),
-                  child: Expanded(
-                    flex: 1,
-                    child: TextField(
-                      controller: Name,
-                      decoration: const InputDecoration(
-                          filled: true,
-                          fillColor: Colors.white,
-                          border: OutlineInputBorder(),
-                          hintText: 'Type here',
-                          hintStyle: TextStyle(
-                            fontSize: 20,
-                            color: Colors.grey,
-                          )),
-                    ),
+                  child: TextField(
+                    controller: name,
+                    decoration: const InputDecoration(
+                        filled: true,
+                        fillColor: Colors.white,
+                        border: OutlineInputBorder(),
+                        hintText: 'Type here',
+                        hintStyle: TextStyle(
+                          fontSize: 20,
+                          color: Colors.grey,
+                        )),
                   ),
                 ),
                 const Row(
@@ -175,7 +172,7 @@ class _InvitationState extends State<Invitation> {
   }
 
   void validateAndSubmit() {
-    Name.text.isEmpty
+    name.text.isEmpty
         ? showAlertDialog(context, 'Error', "Please enter the owner's name. ")
         : (telNum.text.length < 9 || telNum.text.length > 10)
             ? showAlertDialog(
