@@ -159,7 +159,7 @@ class _DashboardState extends State<Dashboard> {
                       : currentIndex == 1
                               ?currentFactoryIndex==2
                               ?FactoryInformation('1549.7kW','34.19','22.82','55.41','50.08','images/data1.png','images/data2.png','images/data3.png','images/data4.png',DateFormat('yyyy-MM-dd HH:mm:ss').format(DateTime.now()))
-                              :const FactoryInformation('⚠️ABD1234 IS UNREACHABLE !','0.0','0.0','0.0','0.0','images/data1.png','images/data2.png','images/data3.png','images/data4.png','--:--')
+                              :const FactoryInformation('⚠️ABD1234 IS UNREACHABLE !','0.0','0.0','0.0','0.0','images/data5.png','images/data6.png','images/data7.png','images/data8.png','--:--')
 
                           //setting page
                         : currentFactoryIndex == 1
