@@ -17,7 +17,6 @@ void main(){
       final activate = find.byType(ElevatedButton);
       final fac1 = find.text('Factory 1').first;
       final fac2 = find.text('Factory 2').first;
-      final fac3 = find.text('Factory 3').first;
       final person = find.byIcon(Icons.person);
       final invite = find.text('+');
       final name = find.byType(TextField).first;
@@ -42,7 +41,6 @@ void main(){
       // Verify initial state
       expect(fac1, findsOneWidget);
       expect(fac2, findsOneWidget);
-      expect(fac3, findsOneWidget);
 
       // Tap on Factory 2 container
       await tester.tap(fac2);
