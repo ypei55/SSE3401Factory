@@ -153,7 +153,7 @@ class _MyHomePageState extends State<MyHomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Checkbox(
-                  fillColor: const MaterialStatePropertyAll(Colors.blue),
+                  fillColor: const WidgetStatePropertyAll(Colors.blue),
                     value: isChecked,
                     onChanged: (bool? value) {
                       setState(() {
